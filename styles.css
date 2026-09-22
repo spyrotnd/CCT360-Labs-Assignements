@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: bisque;
+}
+body {
+
+    background-color: blanchedalmond;
 }
 
 header {
@@ -31,16 +34,17 @@ main {
     margin-bottom: 10px;
 }
 
-
 .cards-container {
     width: 100%;
 }
 
 .cards-container article {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
+    padding-bottom: 200px;
     border: 1px solid #ddd;
-    vertical-align: top;
+    margin-top: 250px;
+    background-color: transparent;
 }
 
 .cards-container article h2 {
